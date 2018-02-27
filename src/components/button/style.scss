@@ -1,0 +1,10 @@
+.button {
+    &:active {
+        border: none;
+        background-color: #029a70;
+    }
+    &:hover {
+        background-color: #2ccfa1;
+        border: none;
+    }
+}

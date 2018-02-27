@@ -1,0 +1,54 @@
+.form {
+    width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+    &__header {
+        padding-top: 250px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    &__heading {
+        width: 270px;
+        font-family: 'PT Sans', Helvetica, sans-serif;
+        font-size: 33px;
+        color: #262e73;
+        line-height: 36px;
+        font-weight: 700;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 14px;
+    }
+    &__reg {
+        
+    }
+    &__label {
+        border: none;
+        margin-top: 20px;
+        padding: 0;
+    }
+    &__button {
+        height: 42px;
+        width: 370px;
+        background-color: #07d79c;
+        border: none;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__check {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 14px;
+        color: #949caa;
+        margin-bottom: 13px;
+        width: 330px;
+    }
+    &__check_href {
+        color: #262e73;
+        text-decoration: none;
+    }
+    
+}
